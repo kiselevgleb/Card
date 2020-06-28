@@ -1,0 +1,103 @@
+.hole-task {
+  width: 301px;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.status {
+  margin-bottom: 20px;
+}
+
+.hole {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.text {
+  font-size: 16;
+  font-weight: bold;
+}
+
+.task {
+  display: inline-block;
+}
+
+.hole-input {
+  width: 220px;
+}
+
+.visa {
+  background-image: url(../img/card-visa.gif);
+}
+
+.master {
+  background-image: url(../img/card-mastercard.gif);
+}
+
+.amer {
+  background-image: url(../img/card-amex.gif);
+}
+
+.dis {
+  background-image: url(../img/card-discover.gif);
+}
+
+.jcb {
+  background-image: url(../img/card-jcb.gif);
+}
+
+.din {
+  background-image: url(../img/card-diners.gif);
+}
+
+.mir {
+  background-image: url(../img/card-mir.gif);
+}
+
+.card {
+  float: left;
+  /* text-align: center; */
+  width: 39px;
+  height: 25px;
+  text-indent: -9999px;
+  /* background-position: 0 0; */
+  margin-right: 4px;
+  display: inline-block;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+
+}
+
+.cards {
+  height: 25px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  padding: 2px 10px 2px 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+.cdisabled {
+  background-position: 0 -25px;
+  opacity: .3;
+}
