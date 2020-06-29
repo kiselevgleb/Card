@@ -1,0 +1,103 @@
+.hole-task {
+  width: 301px;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.status {
+  margin-bottom: 20px;
+}
+
+.hole {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.text {
+  font-size: 16;
+  font-weight: bold;
+}
+
+.task {
+  display: inline-block;
+}
+
+.hole-input {
+  width: 220px;
+}
+
+.visa {
+  background-image: url(5e6039b25c1afd4c6a98fa7a43e00ba0.gif);
+}
+
+.master {
+  background-image: url(a4f14bb8a4efd8b8a073e9cf1d02d9ab.gif);
+}
+
+.amer {
+  background-image: url(2bd22590c95e3561bab84ace4d9eef27.gif);
+}
+
+.dis {
+  background-image: url(d2b0bca54a895557bff600cebb7fb922.gif);
+}
+
+.jcb {
+  background-image: url(e14d52ab2d89d044b43367b42960cca6.gif);
+}
+
+.din {
+  background-image: url(8b3916de428514df340b02abb477eb9a.gif);
+}
+
+.mir {
+  background-image: url(735e2e4c2a7883c3c6a267e346b7633b.gif);
+}
+
+.card {
+  float: left;
+  /* text-align: center; */
+  width: 39px;
+  height: 25px;
+  text-indent: -9999px;
+  /* background-position: 0 0; */
+  margin-right: 4px;
+  display: inline-block;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+
+}
+
+.cards {
+  height: 25px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  padding: 2px 10px 2px 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+.cdisabled {
+  background-position: 0 -25px;
+  opacity: .3;
+}
